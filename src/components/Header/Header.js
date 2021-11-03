@@ -9,9 +9,9 @@ export default function Header({ title }) {
 				{title}
 			</h1>
 			{/* Line 12 title is used to test getByTitle in Header.test.js */}
-			<h3 title="Header" className="header">
+			{/* <h3 title="Header" className="header">
 				Cat
-			</h3>
+			</h3> */}
 		</>
 	);
 }
