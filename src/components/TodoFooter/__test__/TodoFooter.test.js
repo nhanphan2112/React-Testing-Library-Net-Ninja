@@ -65,3 +65,5 @@ it("should render if element has a text content 1 task left", () => {
 	const paragraphElement = screen.getByTestId("para");
 	expect(paragraphElement.textContent).toBe("1 task left");
 });
+
+// Nov 3 Break
