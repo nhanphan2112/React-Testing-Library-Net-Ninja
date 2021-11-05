@@ -33,8 +33,12 @@ function TodoList({
                     {
                         todos.map((todo, index) => (
                             <div 
+                              //below line show example of dynamic class todo.complete 
+                              //which only render when a task get completed and connect to css style todo-item-active
                                 className={`todo-item ${todo.completed && "todo-item-active"}`} 
                                 onClick={() => updateTask(todo.id)}
+                                key={index}
+                                data-testid="task-container"
                             >
                                 {todo.task}
                             </div>
