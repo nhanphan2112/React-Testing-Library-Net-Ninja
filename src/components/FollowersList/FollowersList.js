@@ -3,6 +3,8 @@ import "./FollowersList.css";
 import axios from "axios";
 import { Link } from "react-router-dom";
 
+// Read about Kent C Dodd
+// Need to refractor code intoTypeScript
 export default function FollowersList() {
 	const [followers, setFollowers] = useState([]);
 
